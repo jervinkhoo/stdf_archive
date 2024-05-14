@@ -1,0 +1,811 @@
+FAR:A|4|2
+MIR:MTAI195002040.000||ft-std|T56J750|J750|13:39:50 20-Mar-2019|
+ 13:39:50 20-Mar-2019|B13894||0
+SDR:1|0|0,1,2,3||MULTITEST-005||TMPE219185985.200|||0|0
+PMR:1|2|80||TXCAN|1|0
+PMR:1|2|112||TXCAN|1|1
+PMR:1|2|16||TXCAN|1|2
+PMR:1|2|45||TXCAN|1|3
+PMR:2|2|65||RXCAN|1|0
+PMR:2|2|97||RXCAN|1|1
+PMR:2|2|2||RXCAN|1|2
+PMR:2|2|33||RXCAN|1|3
+PMR:3|2|83||CLKOUT|1|0
+PMR:3|2|115||CLKOUT|1|1
+PMR:3|2|20||CLKOUT|1|2
+PMR:3|2|48||CLKOUT|1|3
+PMR:4|2|69||nTX0RTS|1|0
+PMR:4|2|124||nTX0RTS|1|1
+PMR:4|2|5||nTX0RTS|1|2
+PMR:4|2|60||nTX0RTS|1|3
+PMR:5|2|84||nTX1RTS|1|0
+PMR:5|2|120||nTX1RTS|1|1
+PMR:5|2|19||nTX1RTS|1|2
+PMR:5|2|51||nTX1RTS|1|3
+PMR:6|2|70||nTX2RTS|1|0
+PMR:6|2|103||nTX2RTS|1|1
+PMR:6|2|6||nTX2RTS|1|2
+PMR:6|2|39||nTX2RTS|1|3
+PMR:7|2|86||OSC2|1|0
+PMR:7|2|118||OSC2|1|1
+PMR:7|2|22||OSC2|1|2
+PMR:7|2|54||OSC2|1|3
+PMR:8|2|71||OSC1|1|0
+PMR:8|2|107||OSC1|1|1
+PMR:8|2|7||OSC1|1|2
+PMR:8|2|43||OSC1|1|3
+PMR:9|4|-1||GND|1|0
+PMR:9|4|-1||GND|1|1
+PMR:9|4|-1||GND|1|2
+PMR:9|4|-1||GND|1|3
+PMR:10|2|79||nRX0BF|1|0
+PMR:10|2|102||nRX0BF|1|1
+PMR:10|2|15||nRX0BF|1|2
+PMR:10|2|38||nRX0BF|1|3
+PMR:11|2|90||nRX1BF|1|0
+PMR:11|2|114||nRX1BF|1|1
+PMR:11|2|26||nRX1BF|1|2
+PMR:11|2|52||nRX1BF|1|3
+PMR:12|2|78||nINT|1|0
+PMR:12|2|101||nINT|1|1
+PMR:12|2|14||nINT|1|2
+PMR:12|2|37||nINT|1|3
+PMR:13|2|88||SCK|1|0
+PMR:13|2|113||SCK|1|1
+PMR:13|2|24||SCK|1|2
+PMR:13|2|50||SCK|1|3
+PMR:14|2|76||SI|1|0
+PMR:14|2|99||SI|1|1
+PMR:14|2|12||SI|1|2
+PMR:14|2|35||SI|1|3
+PMR:15|2|87||SO|1|0
+PMR:15|2|111||SO|1|1
+PMR:15|2|23||SO|1|2
+PMR:15|2|49||SO|1|3
+PMR:16|2|75||nCS|1|0
+PMR:16|2|98||nCS|1|1
+PMR:16|2|11||nCS|1|2
+PMR:16|2|34||nCS|1|3
+PMR:17|2|100||nRESET|1|0
+PMR:17|2|96||nRESET|1|1
+PMR:17|2|36||nRESET|1|2
+PMR:17|2|32||nRESET|1|3
+PMR:18|3|6||VCC|1|0
+PMR:18|3|4||VCC|1|1
+PMR:18|3|0||VCC|1|2
+PMR:18|3|2||VCC|1|3
+PMR:19|2|94||TRIG|1|0
+PMR:19|2|119||TRIG|1|1
+PMR:19|2|30||TRIG|1|2
+PMR:19|2|56||TRIG|1|3
+PGR:32768|all_ins|2,4,5,6,8,13,14,16,17
+PGR:32769|all_outs|1,3,7,10,11,12,15
+PGR:32770|cont_pins|1,2,3,4,5,6,7,8,10,11,12,13,14,15,16,17
+PGR:32771|all_ins_nO1_nRs|2,4,5,6,14,16
+PGR:32772|nTXxRTS|4,5,6
+PGR:32773|nRXxBF|10,11
+PGR:32774|all_sans_nCS|1,2,3,4,5,6,7,8,10,11,12,13,14,15
+PGR:32775|odd_outs|10,15
+PGR:32776|even_outs|11
+PLR:9,18,19,32768,32769,32770,32771,32772,32773,32774,32775,32776|||
+ 0,1,L,H,M,V,X,W/0,1,L,H,M,V,X,W/0,1,L,H,M,V,X,W/0,1,L,H,M,V,X,W/0,1,L,H,M,V,X,W
+ /0,1,L,H,M,V,X,W/0,1,L,H,M,V,X,W/0,1,L,H,M,V,X,W/0,1,L,H,M,V,X,W/0,1,L,H,M,V,X,
+ W/0,1,L,H,M,V,X,W/0,1,L,H,M,V,X,W|
+ L,H,M,G/L,H,M,G/L,H,M,G/L,H,M,G/L,H,M,G/L,H,M,G/L,H,M,G/L,H,M,G/L,H,M,G/L,H,M,G
+ /L,H,M,G/L,H,M,G
+PIR:1|3
+BPS:flow_ft
+FTR:10000|1|3|P||pwrdown|||||||||||||||F_powerdown
+PTR:10000|1|3|-0.456981|P||C_shorts_ppmu TXCAN 45|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10001|1|3|-0.448017|P||C_shorts_ppmu CLKOUT 48|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10002|1|3|-0.453542|P||C_shorts_ppmu nTX1RTS 51|||V|-1|-0.1|%f|%f|%f|||3|3|
+ 3
+PTR:10003|1|3|-0.451888|P||C_shorts_ppmu OSC2 54|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10004|1|3|-0.458771|P||C_shorts_ppmu nRX0BF 38|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10005|1|3|-0.454586|P||C_shorts_ppmu SCK 50|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10006|1|3|-0.468893|P||C_shorts_ppmu SO 49|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10000|1|3|-0.454293|P||C_shorts_ppmu RXCAN 33
+PTR:10001|1|3|-0.452196|P||C_shorts_ppmu nTX0RTS 60
+PTR:10002|1|3|-0.452077|P||C_shorts_ppmu nTX2RTS 39
+PTR:10003|1|3|-0.452919|P||C_shorts_ppmu OSC1 43
+PTR:10004|1|3|-0.459502|P||C_shorts_ppmu nRX1BF 52
+PTR:10005|1|3|-0.455851|P||C_shorts_ppmu nINT 37
+PTR:10006|1|3|-0.45532|P||C_shorts_ppmu nCS 34
+FTR:10100|1|3|P||dsvpor_a7|||||||||||||||F_spi_dvpor
+FTR:20000|1|3|P||Mdnrml0|||||||||||||||F_can_md_nrml
+FTR:10400|1|3|P||spi_stat1|||||||||||||||F_spi_rdstat
+FTR:10500|1|3|P||dsvpor_a7|||||||||||||||F_spi_rstpor
+FTR:30000|1|3|P||Sram0a83|||||||||||||||M_srm_zero.0
+FTR:30001|1|3|P||Sram0a83|||||||||||||||M_srm_zero.1
+FTR:30200|1|3|P||Sram5a83|||||||||||||||M_srm_chkr.0
+FTR:30201|1|3|P||regsbyte5_0|||||||||||||||M_srm_chkr.0
+FTR:30202|1|3|P||Sram5a83|||||||||||||||M_srm_chkr.1
+FTR:30300|1|3|P||Sramaa83|||||||||||||||M_srm_ickr.0
+FTR:30301|1|3|P||regsbytea_0|||||||||||||||M_srm_ickr.0
+FTR:30302|1|3|P||Sramaa83|||||||||||||||M_srm_ickr.1
+FTR:30500|1|3|P||Retn_0|||||||||||||||M_srm_retn
+FTR:30600|1|3|P||dsvpor_a7|||||||||||||||M_srm_por
+FTR:80000|1|3|P||Tx_Slo_1|||||||||||||||T_can_tx_lo
+FTR:80100|1|3|P||Tx_nom_0|||||||||||||||T_can_tx_nom
+FTR:80101|1|3|P||Canexts3|||||||||||||||T_can_tx_nom
+FTR:80102|1|3|P||Canmsgs3|||||||||||||||T_can_tx_nom
+FTR:80103|1|3|P||Tx_lo_0|||||||||||||||T_can_tx_nom
+FTR:80200|1|3|P||Rxslo_0|||||||||||||||T_can_rx_lo
+FTR:80300|1|3|P||Canmsgs3|||||||||||||||T_can_rx_nom
+FTR:80301|1|3|P||Canexts3|||||||||||||||T_can_rx_nom
+FTR:80302|1|3|P||Rx_nom_1|||||||||||||||T_can_rx_nom
+FTR:80303|1|3|P||Rx_lo_0|||||||||||||||T_can_rx_nom
+FTR:20100|1|3|P||Can_arb0|||||||||||||||F_can_arb
+FTR:20200|1|3|P||rerror_0|||||||||||||||F_can_err
+FTR:20201|1|3|P||terror_1|||||||||||||||F_can_err
+FTR:20300|1|3|P||Can_slp0|||||||||||||||F_can_md_sleep
+FTR:20400|1|3|P||Can_lstn0|||||||||||||||F_can_md_listen
+FTR:80400|1|3|P||Parts_2|||||||||||||||T_can_bit_prttion
+FTR:80500|1|3|P||Cansync3|||||||||||||||T_can_bit_sync
+FTR:80600|1|3|P||Baud_2|||||||||||||||T_can_baud
+FTR:20600|1|3|P||Can_int1|||||||||||||||F_can_int
+FTR:20800|1|3|P||Mfnacpt0|||||||||||||||F_can_msk0
+FTR:20900|1|3|P||Mfacpt_0|||||||||||||||F_can_mask1
+PTR:40200|1|3|0.00812154|P||I_idd_max VCC 2|||A||0.02|%f|%f|%f|||3||3
+FTR:40300|1|3|P||pwrdown|||||||||||||||F_PowerDown
+PTR:60000|1|3|-4.72596e-011|P||K_leak_inputs.0 SCK 50|||A|-1e-006|1e-006|%f|%f|
+ %f|||6|6|6
+PTR:60001|1|3|-3.03579e-010|P||K_leak_inputs.0 nRESET 32|||A|-1e-006|1e-006|%f|
+ %f|%f|||6|6|6
+PTR:60002|1|3|8.88495e-009|P||K_leak_inputs.1 nTX1RTS 51|||A|-1e-006|1e-006|%f|
+ %f|%f|||6|6|6
+PTR:60003|1|3|-3.914e-009|P||K_leak_inputs.1 SCK 50|||A|-1e-006|1e-006|%f|%f|%f|
+ ||6|6|6
+PTR:60004|1|3|-2.03313e-009|P||K_leak_inputs.1 nRESET 32|||A|-1e-006|1e-006|%f|
+ %f|%f|||6|6|6
+PTR:60005|1|3|-4.30278e-009|P||K_leak_inputs.2 RXCAN 33|||A|-1e-006|1e-006|%f|
+ %f|%f|||6|6|6
+PTR:60006|1|3|2.7684e-009|P||K_leak_inputs.2 nTX0RTS 60|||A|-1e-006|1e-006|%f|
+ %f|%f|||6|6|6
+PTR:60007|1|3|4.58649e-009|P||K_leak_inputs.2 nTX2RTS 39|||A|-1e-006|1e-006|%f|
+ %f|%f|||6|6|6
+PTR:60008|1|3|-9.10139e-009|P||K_leak_inputs.2 SI 35|||A|-1e-006|1e-006|%f|%f|
+ %f|||6|6|6
+PTR:60009|1|3|9.07536e-007|P||K_leak_inputs.3 OSC1 43|||A|-5e-006|5e-006|%f|%f|
+ %f|||6|6|6
+PTR:60010|1|3|-9.07315e-007|P||K_leak_inputs.4 OSC1 43|||A|-5e-006|5e-006|%f|%f|
+ %f|||6|6|6
+PTR:60011|1|3|-9.95227e-011|P||K_leak_inputs.5 RXCAN 33|||A|-1e-006|1e-006|%f|
+ %f|%f|||6|6|6
+PTR:60012|1|3|-2.08025e-010|P||K_leak_inputs.5 SI 35|||A|-1e-006|1e-006|%f|%f|
+ %f|||6|6|6
+FTR:60200|1|3|P||gfuncslo|||||||||||||||L_vil_max_func
+FTR:60300|1|3|P||gfuncslo|||||||||||||||L_vih_min_func
+FTR:60400|1|3|P||gfuncslo|||||||||||||||L_vol_max_func
+FTR:60500|1|3|P||gfuncslo|||||||||||||||L_voh_min_func
+EPS:
+PRR:1|3|1|69|P|2|2|||||1507
+PIR:1|3
+BPS:flow_ft
+FTR:10000|1|3|P||pwrdown|||||||||||||||F_powerdown
+PTR:10000|1|3|-0.458861|P||C_shorts_ppmu TXCAN 45|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10001|1|3|-0.450522|P||C_shorts_ppmu CLKOUT 48|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10002|1|3|-0.455108|P||C_shorts_ppmu nTX1RTS 51|||V|-1|-0.1|%f|%f|%f|||3|3|
+ 3
+PTR:10003|1|3|-0.454393|P||C_shorts_ppmu OSC2 54|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10004|1|3|-0.460023|P||C_shorts_ppmu nRX0BF 38|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10005|1|3|-0.455212|P||C_shorts_ppmu SCK 50|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10006|1|3|-0.471086|P||C_shorts_ppmu SO 49|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10000|1|3|-0.456171|P||C_shorts_ppmu RXCAN 33
+PTR:10001|1|3|-0.455327|P||C_shorts_ppmu nTX0RTS 60
+PTR:10002|1|3|-0.454896|P||C_shorts_ppmu nTX2RTS 39
+PTR:10003|1|3|-0.457303|P||C_shorts_ppmu OSC1 43
+PTR:10004|1|3|-0.460441|P||C_shorts_ppmu nRX1BF 52
+PTR:10005|1|3|-0.456478|P||C_shorts_ppmu nINT 37
+PTR:10006|1|3|-0.456886|P||C_shorts_ppmu nCS 34
+FTR:10100|1|3|P||dsvpor_a7|||||||||||||||F_spi_dvpor
+FTR:20000|1|3|P||Mdnrml0|||||||||||||||F_can_md_nrml
+FTR:10400|1|3|P||spi_stat1|||||||||||||||F_spi_rdstat
+FTR:10500|1|3|P||dsvpor_a7|||||||||||||||F_spi_rstpor
+FTR:30000|1|3|P||Sram0a83|||||||||||||||M_srm_zero.0
+FTR:30001|1|3|P||Sram0a83|||||||||||||||M_srm_zero.1
+FTR:30200|1|3|P||Sram5a83|||||||||||||||M_srm_chkr.0
+FTR:30201|1|3|P||regsbyte5_0|||||||||||||||M_srm_chkr.0
+FTR:30202|1|3|P||Sram5a83|||||||||||||||M_srm_chkr.1
+FTR:30300|1|3|P||Sramaa83|||||||||||||||M_srm_ickr.0
+FTR:30301|1|3|P||regsbytea_0|||||||||||||||M_srm_ickr.0
+FTR:30302|1|3|P||Sramaa83|||||||||||||||M_srm_ickr.1
+FTR:30500|1|3|P||Retn_0|||||||||||||||M_srm_retn
+FTR:30600|1|3|P||dsvpor_a7|||||||||||||||M_srm_por
+FTR:80000|1|3|P||Tx_Slo_1|||||||||||||||T_can_tx_lo
+FTR:80100|1|3|P||Tx_nom_0|||||||||||||||T_can_tx_nom
+FTR:80101|1|3|P||Canexts3|||||||||||||||T_can_tx_nom
+FTR:80102|1|3|P||Canmsgs3|||||||||||||||T_can_tx_nom
+FTR:80103|1|3|P||Tx_lo_0|||||||||||||||T_can_tx_nom
+FTR:80200|1|3|P||Rxslo_0|||||||||||||||T_can_rx_lo
+FTR:80300|1|3|P||Canmsgs3|||||||||||||||T_can_rx_nom
+FTR:80301|1|3|P||Canexts3|||||||||||||||T_can_rx_nom
+FTR:80302|1|3|P||Rx_nom_1|||||||||||||||T_can_rx_nom
+FTR:80303|1|3|P||Rx_lo_0|||||||||||||||T_can_rx_nom
+FTR:20100|1|3|P||Can_arb0|||||||||||||||F_can_arb
+FTR:20200|1|3|P||rerror_0|||||||||||||||F_can_err
+FTR:20201|1|3|P||terror_1|||||||||||||||F_can_err
+FTR:20300|1|3|P||Can_slp0|||||||||||||||F_can_md_sleep
+FTR:20400|1|3|P||Can_lstn0|||||||||||||||F_can_md_listen
+FTR:80400|1|3|P||Parts_2|||||||||||||||T_can_bit_prttion
+FTR:80500|1|3|P||Cansync3|||||||||||||||T_can_bit_sync
+FTR:80600|1|3|P||Baud_2|||||||||||||||T_can_baud
+FTR:20600|1|3|P||Can_int1|||||||||||||||F_can_int
+FTR:20800|1|3|P||Mfnacpt0|||||||||||||||F_can_msk0
+FTR:20900|1|3|P||Mfacpt_0|||||||||||||||F_can_mask1
+PTR:40200|1|3|0.0081005|P||I_idd_max VCC 2|||A||0.02|%f|%f|%f|||3||3
+FTR:40300|1|3|P||pwrdown|||||||||||||||F_PowerDown
+PTR:60000|1|3|-9.78389e-011|P||K_leak_inputs.0 SCK 50|||A|-1e-006|1e-006|%f|%f|
+ %f|||6|6|6
+PTR:60001|1|3|-3.28867e-010|P||K_leak_inputs.0 nRESET 32|||A|-1e-006|1e-006|%f|
+ %f|%f|||6|6|6
+PTR:60002|1|3|8.12044e-009|P||K_leak_inputs.1 nTX1RTS 51|||A|-1e-006|1e-006|%f|
+ %f|%f|||6|6|6
+PTR:60003|1|3|-3.914e-009|P||K_leak_inputs.1 SCK 50|||A|-1e-006|1e-006|%f|%f|%f|
+ ||6|6|6
+PTR:60004|1|3|-2.53772e-009|P||K_leak_inputs.1 nRESET 32|||A|-1e-006|1e-006|%f|
+ %f|%f|||6|6|6
+PTR:60005|1|3|-4.30278e-009|P||K_leak_inputs.2 RXCAN 33|||A|-1e-006|1e-006|%f|
+ %f|%f|||6|6|6
+PTR:60006|1|3|3.2781e-009|P||K_leak_inputs.2 nTX0RTS 60|||A|-1e-006|1e-006|%f|
+ %f|%f|||6|6|6
+PTR:60007|1|3|4.58649e-009|P||K_leak_inputs.2 nTX2RTS 39|||A|-1e-006|1e-006|%f|
+ %f|%f|||6|6|6
+PTR:60008|1|3|-7.05067e-009|P||K_leak_inputs.2 SI 35|||A|-1e-006|1e-006|%f|%f|
+ %f|||6|6|6
+PTR:60009|1|3|8.861e-007|P||K_leak_inputs.3 OSC1 43|||A|-5e-006|5e-006|%f|%f|%f|
+ ||6|6|6
+PTR:60010|1|3|-8.85369e-007|P||K_leak_inputs.4 OSC1 43|||A|-5e-006|5e-006|%f|%f|
+ %f|||6|6|6
+PTR:60011|1|3|-2.53529e-010|P||K_leak_inputs.5 RXCAN 33|||A|-1e-006|1e-006|%f|
+ %f|%f|||6|6|6
+PTR:60012|1|3|-2.5943e-010|P||K_leak_inputs.5 SI 35|||A|-1e-006|1e-006|%f|%f|%f|
+ ||6|6|6
+FTR:60200|1|3|P||gfuncslo|||||||||||||||L_vil_max_func
+FTR:60300|1|3|P||gfuncslo|||||||||||||||L_vih_min_func
+FTR:60400|1|3|P||gfuncslo|||||||||||||||L_vol_max_func
+FTR:60500|1|3|P||gfuncslo|||||||||||||||L_voh_min_func
+EPS:
+PRR:1|3|2|69|P|2|2|||||1258
+PIR:1|3
+BPS:flow_ft
+FTR:10000|1|3|P||pwrdown|||||||||||||||F_powerdown
+PTR:10000|1|3|-0.459487|P||C_shorts_ppmu TXCAN 45|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10001|1|3|-0.450209|P||C_shorts_ppmu CLKOUT 48|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10002|1|3|-0.456048|P||C_shorts_ppmu nTX1RTS 51|||V|-1|-0.1|%f|%f|%f|||3|3|
+ 3
+PTR:10003|1|3|-0.453454|P||C_shorts_ppmu OSC2 54|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10004|1|3|-0.46065|P||C_shorts_ppmu nRX0BF 38|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10005|1|3|-0.456465|P||C_shorts_ppmu SCK 50|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10006|1|3|-0.471712|P||C_shorts_ppmu SO 49|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10000|1|3|-0.456171|P||C_shorts_ppmu RXCAN 33
+PTR:10001|1|3|-0.454701|P||C_shorts_ppmu nTX0RTS 60
+PTR:10002|1|3|-0.454583|P||C_shorts_ppmu nTX2RTS 39
+PTR:10003|1|3|-0.456677|P||C_shorts_ppmu OSC1 43
+PTR:10004|1|3|-0.460754|P||C_shorts_ppmu nRX1BF 52
+PTR:10005|1|3|-0.457417|P||C_shorts_ppmu nINT 37
+PTR:10006|1|3|-0.457199|P||C_shorts_ppmu nCS 34
+FTR:10100|1|3|P||dsvpor_a7|||||||||||||||F_spi_dvpor
+FTR:20000|1|3|P||Mdnrml0|||||||||||||||F_can_md_nrml
+FTR:10400|1|3|P||spi_stat1|||||||||||||||F_spi_rdstat
+FTR:10500|1|3|P||dsvpor_a7|||||||||||||||F_spi_rstpor
+FTR:30000|1|3|P||Sram0a83|||||||||||||||M_srm_zero.0
+FTR:30001|1|3|P||Sram0a83|||||||||||||||M_srm_zero.1
+FTR:30200|1|3|P||Sram5a83|||||||||||||||M_srm_chkr.0
+FTR:30201|1|3|P||regsbyte5_0|||||||||||||||M_srm_chkr.0
+FTR:30202|1|3|P||Sram5a83|||||||||||||||M_srm_chkr.1
+FTR:30300|1|3|P||Sramaa83|||||||||||||||M_srm_ickr.0
+FTR:30301|1|3|P||regsbytea_0|||||||||||||||M_srm_ickr.0
+FTR:30302|1|3|P||Sramaa83|||||||||||||||M_srm_ickr.1
+FTR:30500|1|3|P||Retn_0|||||||||||||||M_srm_retn
+FTR:30600|1|3|P||dsvpor_a7|||||||||||||||M_srm_por
+FTR:80000|1|3|P||Tx_Slo_1|||||||||||||||T_can_tx_lo
+FTR:80100|1|3|P||Tx_nom_0|||||||||||||||T_can_tx_nom
+FTR:80101|1|3|P||Canexts3|||||||||||||||T_can_tx_nom
+FTR:80102|1|3|P||Canmsgs3|||||||||||||||T_can_tx_nom
+FTR:80103|1|3|P||Tx_lo_0|||||||||||||||T_can_tx_nom
+FTR:80200|1|3|P||Rxslo_0|||||||||||||||T_can_rx_lo
+FTR:80300|1|3|P||Canmsgs3|||||||||||||||T_can_rx_nom
+FTR:80301|1|3|P||Canexts3|||||||||||||||T_can_rx_nom
+FTR:80302|1|3|P||Rx_nom_1|||||||||||||||T_can_rx_nom
+FTR:80303|1|3|P||Rx_lo_0|||||||||||||||T_can_rx_nom
+FTR:20100|1|3|P||Can_arb0|||||||||||||||F_can_arb
+FTR:20200|1|3|P||rerror_0|||||||||||||||F_can_err
+FTR:20201|1|3|P||terror_1|||||||||||||||F_can_err
+FTR:20300|1|3|P||Can_slp0|||||||||||||||F_can_md_sleep
+FTR:20400|1|3|P||Can_lstn0|||||||||||||||F_can_md_listen
+FTR:80400|1|3|P||Parts_2|||||||||||||||T_can_bit_prttion
+FTR:80500|1|3|P||Cansync3|||||||||||||||T_can_bit_sync
+FTR:80600|1|3|P||Baud_2|||||||||||||||T_can_baud
+FTR:20600|1|3|P||Can_int1|||||||||||||||F_can_int
+FTR:20800|1|3|P||Mfnacpt0|||||||||||||||F_can_msk0
+FTR:20900|1|3|P||Mfacpt_0|||||||||||||||F_can_mask1
+PTR:40200|1|3|0.00811884|P||I_idd_max VCC 2|||A||0.02|%f|%f|%f|||3||3
+FTR:40300|1|3|P||pwrdown|||||||||||||||F_PowerDown
+PTR:60000|1|3|-1.98998e-010|P||K_leak_inputs.0 SCK 50|||A|-1e-006|1e-006|%f|%f|
+ %f|||6|6|6
+PTR:60001|1|3|-3.54155e-010|P||K_leak_inputs.0 nRESET 32|||A|-1e-006|1e-006|%f|
+ %f|%f|||6|6|6
+PTR:60002|1|3|6.08176e-009|P||K_leak_inputs.1 nTX1RTS 51|||A|-1e-006|1e-006|%f|
+ %f|%f|||6|6|6
+PTR:60003|1|3|-4.67065e-009|P||K_leak_inputs.1 SCK 50|||A|-1e-006|1e-006|%f|%f|
+ %f|||6|6|6
+PTR:60004|1|3|-2.03313e-009|P||K_leak_inputs.1 nRESET 32|||A|-1e-006|1e-006|%f|
+ %f|%f|||6|6|6
+PTR:60005|1|3|-4.30278e-009|P||K_leak_inputs.2 RXCAN 33|||A|-1e-006|1e-006|%f|
+ %f|%f|||6|6|6
+PTR:60006|1|3|2.51355e-009|P||K_leak_inputs.2 nTX0RTS 60|||A|-1e-006|1e-006|%f|
+ %f|%f|||6|6|6
+PTR:60007|1|3|5.34674e-009|P||K_leak_inputs.2 nTX2RTS 39|||A|-1e-006|1e-006|%f|
+ %f|%f|||6|6|6
+PTR:60008|1|3|-7.30701e-009|P||K_leak_inputs.2 SI 35|||A|-1e-006|1e-006|%f|%f|
+ %f|||6|6|6
+PTR:60009|1|3|8.74872e-007|P||K_leak_inputs.3 OSC1 43|||A|-5e-006|5e-006|%f|%f|
+ %f|||6|6|6
+PTR:60010|1|3|-8.721e-007|P||K_leak_inputs.4 OSC1 43|||A|-5e-006|5e-006|%f|%f|
+ %f|||6|6|6
+PTR:60011|1|3|-2.02194e-010|P||K_leak_inputs.5 RXCAN 33|||A|-1e-006|1e-006|%f|
+ %f|%f|||6|6|6
+PTR:60012|1|3|-1.05215e-010|P||K_leak_inputs.5 SI 35|||A|-1e-006|1e-006|%f|%f|
+ %f|||6|6|6
+FTR:60200|1|3|P||gfuncslo|||||||||||||||L_vil_max_func
+FTR:60300|1|3|P||gfuncslo|||||||||||||||L_vih_min_func
+FTR:60400|1|3|P||gfuncslo|||||||||||||||L_vol_max_func
+FTR:60500|1|3|P||gfuncslo|||||||||||||||L_voh_min_func
+EPS:
+PRR:1|3|3|69|P|2|2|||||1258
+PIR:1|3
+BPS:flow_ft
+FTR:10000|1|3|P||pwrdown|||||||||||||||F_powerdown
+PTR:10000|1|3|-0.459487|P||C_shorts_ppmu TXCAN 45|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10001|1|3|-0.448017|P||C_shorts_ppmu CLKOUT 48|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10002|1|3|-0.456048|P||C_shorts_ppmu nTX1RTS 51|||V|-1|-0.1|%f|%f|%f|||3|3|
+ 3
+PTR:10003|1|3|-0.455019|P||C_shorts_ppmu OSC2 54|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10004|1|3|-0.461276|P||C_shorts_ppmu nRX0BF 38|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10005|1|3|-0.457405|P||C_shorts_ppmu SCK 50|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10006|1|3|-0.472651|P||C_shorts_ppmu SO 49|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10000|1|3|-0.455545|P||C_shorts_ppmu RXCAN 33
+PTR:10001|1|3|-0.456267|P||C_shorts_ppmu nTX0RTS 60
+PTR:10002|1|3|-0.455523|P||C_shorts_ppmu nTX2RTS 39
+PTR:10003|1|3|-0.45699|P||C_shorts_ppmu OSC1 43
+PTR:10004|1|3|-0.461694|P||C_shorts_ppmu nRX1BF 52
+PTR:10005|1|3|-0.457417|P||C_shorts_ppmu nINT 37
+PTR:10006|1|3|-0.457825|P||C_shorts_ppmu nCS 34
+FTR:10100|1|3|P||dsvpor_a7|||||||||||||||F_spi_dvpor
+FTR:20000|1|3|P||Mdnrml0|||||||||||||||F_can_md_nrml
+FTR:10400|1|3|P||spi_stat1|||||||||||||||F_spi_rdstat
+FTR:10500|1|3|P||dsvpor_a7|||||||||||||||F_spi_rstpor
+FTR:30000|1|3|P||Sram0a83|||||||||||||||M_srm_zero.0
+FTR:30001|1|3|P||Sram0a83|||||||||||||||M_srm_zero.1
+FTR:30200|1|3|P||Sram5a83|||||||||||||||M_srm_chkr.0
+FTR:30201|1|3|P||regsbyte5_0|||||||||||||||M_srm_chkr.0
+FTR:30202|1|3|P||Sram5a83|||||||||||||||M_srm_chkr.1
+FTR:30300|1|3|P||Sramaa83|||||||||||||||M_srm_ickr.0
+FTR:30301|1|3|P||regsbytea_0|||||||||||||||M_srm_ickr.0
+FTR:30302|1|3|P||Sramaa83|||||||||||||||M_srm_ickr.1
+FTR:30500|1|3|P||Retn_0|||||||||||||||M_srm_retn
+FTR:30600|1|3|P||dsvpor_a7|||||||||||||||M_srm_por
+FTR:80000|1|3|P||Tx_Slo_1|||||||||||||||T_can_tx_lo
+FTR:80100|1|3|P||Tx_nom_0|||||||||||||||T_can_tx_nom
+FTR:80101|1|3|P||Canexts3|||||||||||||||T_can_tx_nom
+FTR:80102|1|3|P||Canmsgs3|||||||||||||||T_can_tx_nom
+FTR:80103|1|3|P||Tx_lo_0|||||||||||||||T_can_tx_nom
+FTR:80200|1|3|P||Rxslo_0|||||||||||||||T_can_rx_lo
+FTR:80300|1|3|P||Canmsgs3|||||||||||||||T_can_rx_nom
+FTR:80301|1|3|P||Canexts3|||||||||||||||T_can_rx_nom
+FTR:80302|1|3|P||Rx_nom_1|||||||||||||||T_can_rx_nom
+FTR:80303|1|3|P||Rx_lo_0|||||||||||||||T_can_rx_nom
+FTR:20100|1|3|P||Can_arb0|||||||||||||||F_can_arb
+FTR:20200|1|3|P||rerror_0|||||||||||||||F_can_err
+FTR:20201|1|3|P||terror_1|||||||||||||||F_can_err
+FTR:20300|1|3|P||Can_slp0|||||||||||||||F_can_md_sleep
+FTR:20400|1|3|P||Can_lstn0|||||||||||||||F_can_md_listen
+FTR:80400|1|3|P||Parts_2|||||||||||||||T_can_bit_prttion
+FTR:80500|1|3|P||Cansync3|||||||||||||||T_can_bit_sync
+FTR:80600|1|3|P||Baud_2|||||||||||||||T_can_baud
+FTR:20600|1|3|P||Can_int1|||||||||||||||F_can_int
+FTR:20800|1|3|P||Mfnacpt0|||||||||||||||F_can_msk0
+FTR:20900|1|3|P||Mfacpt_0|||||||||||||||F_can_mask1
+PTR:40200|1|3|0.00793998|P||I_idd_max VCC 2|||A||0.02|%f|%f|%f|||3||3
+FTR:40300|1|3|P||pwrdown|||||||||||||||F_PowerDown
+PTR:60000|1|3|-7.25492e-011|P||K_leak_inputs.0 SCK 50|||A|-1e-006|1e-006|%f|%f|
+ %f|||6|6|6
+PTR:60001|1|3|-3.28867e-010|P||K_leak_inputs.0 nRESET 32|||A|-1e-006|1e-006|%f|
+ %f|%f|||6|6|6
+PTR:60002|1|3|7.1011e-009|P||K_leak_inputs.1 nTX1RTS 51|||A|-1e-006|1e-006|%f|
+ %f|%f|||6|6|6
+PTR:60003|1|3|-5.93173e-009|P||K_leak_inputs.1 SCK 50|||A|-1e-006|1e-006|%f|%f|
+ %f|||6|6|6
+PTR:60004|1|3|-2.79002e-009|P||K_leak_inputs.1 nRESET 32|||A|-1e-006|1e-006|%f|
+ %f|%f|||6|6|6
+PTR:60005|1|3|-3.02266e-009|P||K_leak_inputs.2 RXCAN 33|||A|-1e-006|1e-006|%f|
+ %f|%f|||6|6|6
+PTR:60006|1|3|2.51355e-009|P||K_leak_inputs.2 nTX0RTS 60|||A|-1e-006|1e-006|%f|
+ %f|%f|||6|6|6
+PTR:60007|1|3|4.83991e-009|P||K_leak_inputs.2 nTX2RTS 39|||A|-1e-006|1e-006|%f|
+ %f|%f|||6|6|6
+PTR:60008|1|3|-8.07603e-009|P||K_leak_inputs.2 SI 35|||A|-1e-006|1e-006|%f|%f|
+ %f|||6|6|6
+PTR:60009|1|3|8.72831e-007|P||K_leak_inputs.3 OSC1 43|||A|-5e-006|5e-006|%f|%f|
+ %f|||6|6|6
+PTR:60010|1|3|-8.7261e-007|P||K_leak_inputs.4 OSC1 43|||A|-5e-006|5e-006|%f|%f|
+ %f|||6|6|6
+PTR:60011|1|3|-2.02194e-010|P||K_leak_inputs.5 RXCAN 33|||A|-1e-006|1e-006|%f|
+ %f|%f|||6|6|6
+PTR:60012|1|3|-1.5662e-010|P||K_leak_inputs.5 SI 35|||A|-1e-006|1e-006|%f|%f|%f|
+ ||6|6|6
+FTR:60200|1|3|P||gfuncslo|||||||||||||||L_vil_max_func
+FTR:60300|1|3|P||gfuncslo|||||||||||||||L_vih_min_func
+FTR:60400|1|3|P||gfuncslo|||||||||||||||L_vol_max_func
+FTR:60500|1|3|P||gfuncslo|||||||||||||||L_voh_min_func
+EPS:
+PRR:1|3|4|69|P|2|2|||||1258
+PIR:1|3
+BPS:flow_ft
+FTR:10000|1|3|P||pwrdown|||||||||||||||F_powerdown
+PTR:10000|1|3|-0.461367|P||C_shorts_ppmu TXCAN 45|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10001|1|3|-0.449896|P||C_shorts_ppmu CLKOUT 48|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10002|1|3|-0.457614|P||C_shorts_ppmu nTX1RTS 51|||V|-1|-0.1|%f|%f|%f|||3|3|
+ 3
+PTR:10003|1|3|-0.455959|P||C_shorts_ppmu OSC2 54|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10004|1|3|-0.46065|P||C_shorts_ppmu nRX0BF 38|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10005|1|3|-0.456778|P||C_shorts_ppmu SCK 50|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10006|1|3|-0.472338|P||C_shorts_ppmu SO 49|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10000|1|3|-0.457736|P||C_shorts_ppmu RXCAN 33
+PTR:10001|1|3|-0.456893|P||C_shorts_ppmu nTX0RTS 60
+PTR:10002|1|3|-0.456462|P||C_shorts_ppmu nTX2RTS 39
+PTR:10003|1|3|-0.457929|P||C_shorts_ppmu OSC1 43
+PTR:10004|1|3|-0.462007|P||C_shorts_ppmu nRX1BF 52
+PTR:10005|1|3|-0.456791|P||C_shorts_ppmu nINT 37
+PTR:10006|1|3|-0.457825|P||C_shorts_ppmu nCS 34
+FTR:10100|1|3|P||dsvpor_a7|||||||||||||||F_spi_dvpor
+FTR:20000|1|3|P||Mdnrml0|||||||||||||||F_can_md_nrml
+FTR:10400|1|3|P||spi_stat1|||||||||||||||F_spi_rdstat
+FTR:10500|1|3|P||dsvpor_a7|||||||||||||||F_spi_rstpor
+FTR:30000|1|3|P||Sram0a83|||||||||||||||M_srm_zero.0
+FTR:30001|1|3|P||Sram0a83|||||||||||||||M_srm_zero.1
+FTR:30200|1|3|P||Sram5a83|||||||||||||||M_srm_chkr.0
+FTR:30201|1|3|P||regsbyte5_0|||||||||||||||M_srm_chkr.0
+FTR:30202|1|3|P||Sram5a83|||||||||||||||M_srm_chkr.1
+FTR:30300|1|3|P||Sramaa83|||||||||||||||M_srm_ickr.0
+FTR:30301|1|3|P||regsbytea_0|||||||||||||||M_srm_ickr.0
+FTR:30302|1|3|P||Sramaa83|||||||||||||||M_srm_ickr.1
+FTR:30500|1|3|P||Retn_0|||||||||||||||M_srm_retn
+FTR:30600|1|3|P||dsvpor_a7|||||||||||||||M_srm_por
+FTR:80000|1|3|P||Tx_Slo_1|||||||||||||||T_can_tx_lo
+FTR:80100|1|3|P||Tx_nom_0|||||||||||||||T_can_tx_nom
+FTR:80101|1|3|P||Canexts3|||||||||||||||T_can_tx_nom
+FTR:80102|1|3|P||Canmsgs3|||||||||||||||T_can_tx_nom
+FTR:80103|1|3|P||Tx_lo_0|||||||||||||||T_can_tx_nom
+FTR:80200|1|3|P||Rxslo_0|||||||||||||||T_can_rx_lo
+FTR:80300|1|3|P||Canmsgs3|||||||||||||||T_can_rx_nom
+FTR:80301|1|3|P||Canexts3|||||||||||||||T_can_rx_nom
+FTR:80302|1|3|P||Rx_nom_1|||||||||||||||T_can_rx_nom
+FTR:80303|1|3|P||Rx_lo_0|||||||||||||||T_can_rx_nom
+FTR:20100|1|3|P||Can_arb0|||||||||||||||F_can_arb
+FTR:20200|1|3|P||rerror_0|||||||||||||||F_can_err
+FTR:20201|1|3|P||terror_1|||||||||||||||F_can_err
+FTR:20300|1|3|P||Can_slp0|||||||||||||||F_can_md_sleep
+FTR:20400|1|3|P||Can_lstn0|||||||||||||||F_can_md_listen
+FTR:80400|1|3|P||Parts_2|||||||||||||||T_can_bit_prttion
+FTR:80500|1|3|P||Cansync3|||||||||||||||T_can_bit_sync
+FTR:80600|1|3|P||Baud_2|||||||||||||||T_can_baud
+FTR:20600|1|3|P||Can_int1|||||||||||||||F_can_int
+FTR:20800|1|3|P||Mfnacpt0|||||||||||||||F_can_msk0
+FTR:20900|1|3|P||Mfacpt_0|||||||||||||||F_can_mask1
+PTR:40200|1|3|0.00797523|P||I_idd_max VCC 2|||A||0.02|%f|%f|%f|||3||3
+FTR:40300|1|3|P||pwrdown|||||||||||||||F_PowerDown
+PTR:60000|1|3|-2.19699e-011|P||K_leak_inputs.0 SCK 50|||A|-1e-006|1e-006|%f|%f|
+ %f|||6|6|6
+PTR:60001|1|3|-3.79444e-010|P||K_leak_inputs.0 nRESET 32|||A|-1e-006|1e-006|%f|
+ %f|%f|||6|6|6
+PTR:60002|1|3|7.86561e-009|P||K_leak_inputs.1 nTX1RTS 51|||A|-1e-006|1e-006|%f|
+ %f|%f|||6|6|6
+PTR:60003|1|3|-4.67065e-009|P||K_leak_inputs.1 SCK 50|||A|-1e-006|1e-006|%f|%f|
+ %f|||6|6|6
+PTR:60004|1|3|-2.53772e-009|P||K_leak_inputs.1 nRESET 32|||A|-1e-006|1e-006|%f|
+ %f|%f|||6|6|6
+PTR:60005|1|3|-2.25458e-009|P||K_leak_inputs.2 RXCAN 33|||A|-1e-006|1e-006|%f|
+ %f|%f|||6|6|6
+PTR:60006|1|3|1.2393e-009|P||K_leak_inputs.2 nTX0RTS 60|||A|-1e-006|1e-006|%f|
+ %f|%f|||6|6|6
+PTR:60007|1|3|6.10698e-009|P||K_leak_inputs.2 nTX2RTS 39|||A|-1e-006|1e-006|%f|
+ %f|%f|||6|6|6
+PTR:60008|1|3|-7.30701e-009|P||K_leak_inputs.2 SI 35|||A|-1e-006|1e-006|%f|%f|
+ %f|||6|6|6
+PTR:60009|1|3|9.06515e-007|P||K_leak_inputs.3 OSC1 43|||A|-5e-006|5e-006|%f|%f|
+ %f|||6|6|6
+PTR:60010|1|3|-9.03997e-007|P||K_leak_inputs.4 OSC1 43|||A|-5e-006|5e-006|%f|%f|
+ %f|||6|6|6
+PTR:60011|1|3|-2.02194e-010|P||K_leak_inputs.5 RXCAN 33|||A|-1e-006|1e-006|%f|
+ %f|%f|||6|6|6
+PTR:60012|1|3|-1.30918e-010|P||K_leak_inputs.5 SI 35|||A|-1e-006|1e-006|%f|%f|
+ %f|||6|6|6
+FTR:60200|1|3|P||gfuncslo|||||||||||||||L_vil_max_func
+FTR:60300|1|3|P||gfuncslo|||||||||||||||L_vih_min_func
+FTR:60400|1|3|P||gfuncslo|||||||||||||||L_vol_max_func
+FTR:60500|1|3|P||gfuncslo|||||||||||||||L_voh_min_func
+EPS:
+PRR:1|3|5|69|P|2|2|||||1257
+PIR:1|3
+BPS:flow_ft
+FTR:10000|1|3|P||pwrdown|||||||||||||||F_powerdown
+PTR:10000|1|3|-0.459801|P||C_shorts_ppmu TXCAN 45|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10001|1|3|-0.450209|P||C_shorts_ppmu CLKOUT 48|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10002|1|3|-0.456361|P||C_shorts_ppmu nTX1RTS 51|||V|-1|-0.1|%f|%f|%f|||3|3|
+ 3
+PTR:10003|1|3|-0.455646|P||C_shorts_ppmu OSC2 54|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10004|1|3|-0.461276|P||C_shorts_ppmu nRX0BF 38|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10005|1|3|-0.457405|P||C_shorts_ppmu SCK 50|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10006|1|3|-0.471712|P||C_shorts_ppmu SO 49|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10000|1|3|-0.456797|P||C_shorts_ppmu RXCAN 33
+PTR:10001|1|3|-0.455327|P||C_shorts_ppmu nTX0RTS 60
+PTR:10002|1|3|-0.455209|P||C_shorts_ppmu nTX2RTS 39
+PTR:10003|1|3|-0.457929|P||C_shorts_ppmu OSC1 43
+PTR:10004|1|3|-0.461694|P||C_shorts_ppmu nRX1BF 52
+PTR:10005|1|3|-0.458043|P||C_shorts_ppmu nINT 37
+PTR:10006|1|3|-0.457825|P||C_shorts_ppmu nCS 34
+FTR:10100|1|3|P||dsvpor_a7|||||||||||||||F_spi_dvpor
+FTR:20000|1|3|F||Mdnrml0|||||||||||||||F_can_md_nrml
+EPS:
+PRR:1|3|6|17|F|3|200|||||91
+PIR:1|3
+BPS:flow_ft
+FTR:10000|1|3|P||pwrdown|||||||||||||||F_powerdown
+PTR:10000|1|3|-0.459487|P||C_shorts_ppmu TXCAN 45|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10001|1|3|-0.448643|P||C_shorts_ppmu CLKOUT 48|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10002|1|3|-0.455421|P||C_shorts_ppmu nTX1RTS 51|||V|-1|-0.1|%f|%f|%f|||3|3|
+ 3
+PTR:10003|1|3|-0.453767|P||C_shorts_ppmu OSC2 54|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10004|1|3|-0.46065|P||C_shorts_ppmu nRX0BF 38|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10005|1|3|-0.457405|P||C_shorts_ppmu SCK 50|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10006|1|3|-0.471399|P||C_shorts_ppmu SO 49|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10000|1|3|-0.455545|P||C_shorts_ppmu RXCAN 33
+PTR:10001|1|3|-0.454388|P||C_shorts_ppmu nTX0RTS 60
+PTR:10002|1|3|-0.453957|P||C_shorts_ppmu nTX2RTS 39
+PTR:10003|1|3|-0.456051|P||C_shorts_ppmu OSC1 43
+PTR:10004|1|3|-0.460441|P||C_shorts_ppmu nRX1BF 52
+PTR:10005|1|3|-0.456791|P||C_shorts_ppmu nINT 37
+PTR:10006|1|3|-0.457512|P||C_shorts_ppmu nCS 34
+FTR:10100|1|3|P||dsvpor_a7|||||||||||||||F_spi_dvpor
+FTR:20000|1|3|P||Mdnrml0|||||||||||||||F_can_md_nrml
+FTR:10400|1|3|P||spi_stat1|||||||||||||||F_spi_rdstat
+FTR:10500|1|3|P||dsvpor_a7|||||||||||||||F_spi_rstpor
+FTR:30000|1|3|P||Sram0a83|||||||||||||||M_srm_zero.0
+FTR:30001|1|3|P||Sram0a83|||||||||||||||M_srm_zero.1
+FTR:30200|1|3|P||Sram5a83|||||||||||||||M_srm_chkr.0
+FTR:30201|1|3|P||regsbyte5_0|||||||||||||||M_srm_chkr.0
+FTR:30202|1|3|P||Sram5a83|||||||||||||||M_srm_chkr.1
+FTR:30300|1|3|P||Sramaa83|||||||||||||||M_srm_ickr.0
+FTR:30301|1|3|P||regsbytea_0|||||||||||||||M_srm_ickr.0
+FTR:30302|1|3|P||Sramaa83|||||||||||||||M_srm_ickr.1
+FTR:30500|1|3|P||Retn_0|||||||||||||||M_srm_retn
+FTR:30600|1|3|P||dsvpor_a7|||||||||||||||M_srm_por
+FTR:80000|1|3|P||Tx_Slo_1|||||||||||||||T_can_tx_lo
+FTR:80100|1|3|P||Tx_nom_0|||||||||||||||T_can_tx_nom
+FTR:80101|1|3|P||Canexts3|||||||||||||||T_can_tx_nom
+FTR:80102|1|3|P||Canmsgs3|||||||||||||||T_can_tx_nom
+FTR:80103|1|3|P||Tx_lo_0|||||||||||||||T_can_tx_nom
+FTR:80200|1|3|F||Rxslo_0|||||||||||||||T_can_rx_lo
+EPS:
+PRR:1|3|7|35|F|3|802|||||365
+PIR:1|3
+BPS:flow_ft
+FTR:10000|1|3|P||pwrdown|||||||||||||||F_powerdown
+PTR:10000|1|3|-0.459801|P||C_shorts_ppmu TXCAN 45|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10001|1|3|-0.448956|P||C_shorts_ppmu CLKOUT 48|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10002|1|3|-0.456674|P||C_shorts_ppmu nTX1RTS 51|||V|-1|-0.1|%f|%f|%f|||3|3|
+ 3
+PTR:10003|1|3|-0.455019|P||C_shorts_ppmu OSC2 54|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10004|1|3|-0.461902|P||C_shorts_ppmu nRX0BF 38|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10005|1|3|-0.457718|P||C_shorts_ppmu SCK 50|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10006|1|3|-0.471712|P||C_shorts_ppmu SO 49|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10000|1|3|-0.456484|P||C_shorts_ppmu RXCAN 33
+PTR:10001|1|3|-0.456267|P||C_shorts_ppmu nTX0RTS 60
+PTR:10002|1|3|-0.455523|P||C_shorts_ppmu nTX2RTS 39
+PTR:10003|1|3|-0.457929|P||C_shorts_ppmu OSC1 43
+PTR:10004|1|3|-0.462007|P||C_shorts_ppmu nRX1BF 52
+PTR:10005|1|3|-0.458669|P||C_shorts_ppmu nINT 37
+PTR:10006|1|3|-0.458138|P||C_shorts_ppmu nCS 34
+FTR:10100|1|3|P||dsvpor_a7|||||||||||||||F_spi_dvpor
+FTR:20000|1|3|P||Mdnrml0|||||||||||||||F_can_md_nrml
+FTR:10400|1|3|P||spi_stat1|||||||||||||||F_spi_rdstat
+FTR:10500|1|3|P||dsvpor_a7|||||||||||||||F_spi_rstpor
+FTR:30000|1|3|P||Sram0a83|||||||||||||||M_srm_zero.0
+FTR:30001|1|3|P||Sram0a83|||||||||||||||M_srm_zero.1
+FTR:30200|1|3|P||Sram5a83|||||||||||||||M_srm_chkr.0
+FTR:30201|1|3|P||regsbyte5_0|||||||||||||||M_srm_chkr.0
+FTR:30202|1|3|P||Sram5a83|||||||||||||||M_srm_chkr.1
+FTR:30300|1|3|P||Sramaa83|||||||||||||||M_srm_ickr.0
+FTR:30301|1|3|P||regsbytea_0|||||||||||||||M_srm_ickr.0
+FTR:30302|1|3|P||Sramaa83|||||||||||||||M_srm_ickr.1
+FTR:30500|1|3|P||Retn_0|||||||||||||||M_srm_retn
+FTR:30600|1|3|P||dsvpor_a7|||||||||||||||M_srm_por
+FTR:80000|1|3|P||Tx_Slo_1|||||||||||||||T_can_tx_lo
+FTR:80100|1|3|P||Tx_nom_0|||||||||||||||T_can_tx_nom
+FTR:80101|1|3|P||Canexts3|||||||||||||||T_can_tx_nom
+FTR:80102|1|3|P||Canmsgs3|||||||||||||||T_can_tx_nom
+FTR:80103|1|3|P||Tx_lo_0|||||||||||||||T_can_tx_nom
+FTR:80200|1|3|F||Rxslo_0|||||||||||||||T_can_rx_lo
+EPS:
+PRR:1|3|8|35|F|3|802|||||363
+PIR:1|3
+BPS:flow_ft
+FTR:10000|1|3|P||pwrdown|||||||||||||||F_powerdown
+PTR:10000|1|3|-0.46074|P||C_shorts_ppmu TXCAN 45|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10001|1|3|-0.44833|P||C_shorts_ppmu CLKOUT 48|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10002|1|3|-0.455734|P||C_shorts_ppmu nTX1RTS 51|||V|-1|-0.1|%f|%f|%f|||3|3|
+ 3
+PTR:10003|1|3|-0.454706|P||C_shorts_ppmu OSC2 54|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10004|1|3|-0.46065|P||C_shorts_ppmu nRX0BF 38|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10005|1|3|-0.457718|P||C_shorts_ppmu SCK 50|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10006|1|3|-0.473904|P||C_shorts_ppmu SO 49|||V|-1|-0.1|%f|%f|%f|||3|3|3
+PTR:10000|1|3|-0.457423|P||C_shorts_ppmu RXCAN 33
+PTR:10001|1|3|-0.457206|P||C_shorts_ppmu nTX0RTS 60
+PTR:10002|1|3|-0.455209|P||C_shorts_ppmu nTX2RTS 39
+PTR:10003|1|3|-0.457303|P||C_shorts_ppmu OSC1 43
+PTR:10004|1|3|-0.460441|P||C_shorts_ppmu nRX1BF 52
+PTR:10005|1|3|-0.456478|P||C_shorts_ppmu nINT 37
+PTR:10006|1|3|-0.459391|P||C_shorts_ppmu nCS 34
+FTR:10100|1|3|P||dsvpor_a7|||||||||||||||F_spi_dvpor
+FTR:20000|1|3|P||Mdnrml0|||||||||||||||F_can_md_nrml
+FTR:10400|1|3|P||spi_stat1|||||||||||||||F_spi_rdstat
+FTR:10500|1|3|P||dsvpor_a7|||||||||||||||F_spi_rstpor
+FTR:30000|1|3|P||Sram0a83|||||||||||||||M_srm_zero.0
+FTR:30001|1|3|P||Sram0a83|||||||||||||||M_srm_zero.1
+FTR:30200|1|3|P||Sram5a83|||||||||||||||M_srm_chkr.0
+FTR:30201|1|3|P||regsbyte5_0|||||||||||||||M_srm_chkr.0
+FTR:30202|1|3|P||Sram5a83|||||||||||||||M_srm_chkr.1
+FTR:30300|1|3|P||Sramaa83|||||||||||||||M_srm_ickr.0
+FTR:30301|1|3|P||regsbytea_0|||||||||||||||M_srm_ickr.0
+FTR:30302|1|3|P||Sramaa83|||||||||||||||M_srm_ickr.1
+FTR:30500|1|3|P||Retn_0|||||||||||||||M_srm_retn
+FTR:30600|1|3|P||dsvpor_a7|||||||||||||||M_srm_por
+FTR:80000|1|3|P||Tx_Slo_1|||||||||||||||T_can_tx_lo
+FTR:80100|1|3|P||Tx_nom_0|||||||||||||||T_can_tx_nom
+FTR:80101|1|3|P||Canexts3|||||||||||||||T_can_tx_nom
+FTR:80102|1|3|P||Canmsgs3|||||||||||||||T_can_tx_nom
+FTR:80103|1|3|P||Tx_lo_0|||||||||||||||T_can_tx_nom
+FTR:80200|1|3|P||Rxslo_0|||||||||||||||T_can_rx_lo
+FTR:80300|1|3|P||Canmsgs3|||||||||||||||T_can_rx_nom
+FTR:80301|1|3|P||Canexts3|||||||||||||||T_can_rx_nom
+FTR:80302|1|3|P||Rx_nom_1|||||||||||||||T_can_rx_nom
+FTR:80303|1|3|P||Rx_lo_0|||||||||||||||T_can_rx_nom
+FTR:20100|1|3|P||Can_arb0|||||||||||||||F_can_arb
+FTR:20200|1|3|P||rerror_0|||||||||||||||F_can_err
+FTR:20201|1|3|P||terror_1|||||||||||||||F_can_err
+FTR:20300|1|3|P||Can_slp0|||||||||||||||F_can_md_sleep
+FTR:20400|1|3|P||Can_lstn0|||||||||||||||F_can_md_listen
+FTR:80400|1|3|P||Parts_2|||||||||||||||T_can_bit_prttion
+FTR:80500|1|3|P||Cansync3|||||||||||||||T_can_bit_sync
+FTR:80600|1|3|P||Baud_2|||||||||||||||T_can_baud
+FTR:20600|1|3|P||Can_int1|||||||||||||||F_can_int
+FTR:20800|1|3|P||Mfnacpt0|||||||||||||||F_can_msk0
+FTR:20900|1|3|P||Mfacpt_0|||||||||||||||F_can_mask1
+PTR:40200|1|3|0.00792903|P||I_idd_max VCC 2|||A||0.02|%f|%f|%f|||3||3
+FTR:40300|1|3|P||pwrdown|||||||||||||||F_PowerDown
+PTR:60000|1|3|-2.19699e-011|P||K_leak_inputs.0 SCK 50|||A|-1e-006|1e-006|%f|%f|
+ %f|||6|6|6
+PTR:60001|1|3|-4.3002e-010|P||K_leak_inputs.0 nRESET 32|||A|-1e-006|1e-006|%f|
+ %f|%f|||6|6|6
+PTR:60002|1|3|6.33659e-009|P||K_leak_inputs.1 nTX1RTS 51|||A|-1e-006|1e-006|%f|
+ %f|%f|||6|6|6
+PTR:60003|1|3|-3.914e-009|P||K_leak_inputs.1 SCK 50|||A|-1e-006|1e-006|%f|%f|%f|
+ ||6|6|6
+PTR:60004|1|3|-2.53772e-009|P||K_leak_inputs.1 nRESET 32|||A|-1e-006|1e-006|%f|
+ %f|%f|||6|6|6
+PTR:60005|1|3|-3.02266e-009|P||K_leak_inputs.2 RXCAN 33|||A|-1e-006|1e-006|%f|
+ %f|%f|||6|6|6
+PTR:60006|1|3|2.7684e-009|P||K_leak_inputs.2 nTX0RTS 60|||A|-1e-006|1e-006|%f|
+ %f|%f|||6|6|6
+PTR:60007|1|3|5.60015e-009|P||K_leak_inputs.2 nTX2RTS 39|||A|-1e-006|1e-006|%f|
+ %f|%f|||6|6|6
+PTR:60008|1|3|-5.76897e-009|P||K_leak_inputs.2 SI 35|||A|-1e-006|1e-006|%f|%f|
+ %f|||6|6|6
+PTR:60009|1|3|8.76148e-007|P||K_leak_inputs.3 OSC1 43|||A|-5e-006|5e-006|%f|%f|
+ %f|||6|6|6
+PTR:60010|1|3|-8.74652e-007|P||K_leak_inputs.4 OSC1 43|||A|-5e-006|5e-006|%f|%f|
+ %f|||6|6|6
+PTR:60011|1|3|-1.50858e-010|P||K_leak_inputs.5 RXCAN 33|||A|-1e-006|1e-006|%f|
+ %f|%f|||6|6|6
+PTR:60012|1|3|-1.82323e-010|P||K_leak_inputs.5 SI 35|||A|-1e-006|1e-006|%f|%f|
+ %f|||6|6|6
+FTR:60200|1|3|P||gfuncslo|||||||||||||||L_vil_max_func
+FTR:60300|1|3|P||gfuncslo|||||||||||||||L_vih_min_func
+FTR:60400|1|3|P||gfuncslo|||||||||||||||L_vol_max_func
+FTR:60500|1|3|P||gfuncslo|||||||||||||||L_voh_min_func
+EPS:
+PRR:1|3|9|69|P|2|2|||||1258
+TSR:||10000|F_powerdown|F|9|0||F_powerdown||85.57
+TSR:||10000|C_shorts_ppmu RXCAN 33|P|18|0||C_shorts_ppmu||0.97|-0.461367|
+ -0.454293
+TSR:||10001|C_shorts_ppmu nTX0RTS 60|P|18|0||C_shorts_ppmu||0.97|-0.457206|
+ -0.448017
+TSR:||10002|C_shorts_ppmu nTX2RTS 39|P|18|0||C_shorts_ppmu||0.97|-0.457614|
+ -0.452077
+TSR:||10003|C_shorts_ppmu OSC1 43|P|18|0||C_shorts_ppmu||0.97|-0.457929|
+ -0.451888
+TSR:||10004|C_shorts_ppmu nRX1BF 52|P|18|0||C_shorts_ppmu||0.97|-0.462007|
+ -0.458771
+TSR:||10005|C_shorts_ppmu nINT 37|P|18|0||C_shorts_ppmu||0.97|-0.458669|
+ -0.454586
+TSR:||10006|C_shorts_ppmu nCS 34|P|18|0||C_shorts_ppmu||0.97|-0.473904|-0.45532|
+TSR:||10100|F_spi_dvpor|F|9|0||F_spi_dvpor||6.04
+TSR:||20000|F_can_md_nrml|F|9|1||F_can_md_nrml||10.14
+TSR:||10400|F_spi_rdstat|F|8|0||F_spi_rdstat||5.62
+TSR:||10500|F_spi_rstpor|F|8|0||F_spi_rstpor||4.68
+TSR:||30000|M_srm_zero|F|8|0||M_srm_zero||30.52
+TSR:||30001|M_srm_zero|F|8|0||M_srm_zero||30.52
+TSR:||30200|M_srm_chkr|F|8|0||M_srm_chkr||21.95
+TSR:||30201|M_srm_chkr|F|8|0||M_srm_chkr||21.95
+TSR:||30202|M_srm_chkr|F|8|0||M_srm_chkr||21.95
+TSR:||30300|M_srm_ickr|F|8|0||M_srm_ickr||21.94
+TSR:||30301|M_srm_ickr|F|8|0||M_srm_ickr||21.94
+TSR:||30302|M_srm_ickr|F|8|0||M_srm_ickr||21.94
+TSR:||30500|M_srm_retn|F|8|0||M_srm_retn||6.13
+TSR:||30600|M_srm_por|F|8|0||M_srm_por||0.78
+TSR:||80000|T_can_tx_lo|F|8|0||T_can_tx_lo||11.11
+TSR:||80100|T_can_tx_nom|F|8|0||T_can_tx_nom||6.67
+TSR:||80101|T_can_tx_nom|F|8|0||T_can_tx_nom||6.67
+TSR:||80102|T_can_tx_nom|F|8|0||T_can_tx_nom||6.67
+TSR:||80103|T_can_tx_nom|F|8|0||T_can_tx_nom||6.67
+TSR:||80200|T_can_rx_lo|F|8|2||T_can_rx_lo||24.96
+TSR:||80300|T_can_rx_nom|F|6|0||T_can_rx_nom||10.88
+TSR:||80301|T_can_rx_nom|F|6|0||T_can_rx_nom||10.88
+TSR:||80302|T_can_rx_nom|F|6|0||T_can_rx_nom||10.88
+TSR:||80303|T_can_rx_nom|F|6|0||T_can_rx_nom||10.88
+TSR:||20100|F_can_arb|F|6|0||F_can_arb||7.05
+TSR:||20200|F_can_err|F|6|0||F_can_err||12.34
+TSR:||20201|F_can_err|F|6|0||F_can_err||12.34
+TSR:||20300|F_can_md_sleep|F|6|0||F_can_md_sleep||7.71
+TSR:||20400|F_can_md_listen|F|6|0||F_can_md_listen||5.76
+TSR:||80400|T_can_bit_prttion|F|6|0||T_can_bit_prttion||7.66
+TSR:||80500|T_can_bit_sync|F|6|0||T_can_bit_sync||5.2
+TSR:||80600|T_can_baud|F|6|0||T_can_baud||45.68
+TSR:||20600|F_can_int|F|6|0||F_can_int||7.79
+TSR:||20800|F_can_msk0|F|6|0||F_can_msk0||27.45
+TSR:||20900|F_can_mask1|F|6|0||F_can_mask1||7.11
+TSR:||40200|I_idd_max VCC 2|P|6|0||I_idd_max||214.61|0.00792903|0.00812154
+TSR:||40300|F_PowerDown|F|6|0||F_PowerDown||55.18
+TSR:||60000|K_leak_inputs.0 SCK 50|P|6|0||K_leak_inputs||28.94|-1.98998e-010|
+ -2.19699e-011
+TSR:||60001|K_leak_inputs.0 nRESET 32|P|6|0||K_leak_inputs||28.94|-4.3002e-010|
+ -3.03579e-010
+TSR:||60002|K_leak_inputs.1 nTX1RTS 51|P|6|0||K_leak_inputs||28.94|6.08176e-009|
+ 8.88495e-009
+TSR:||60003|K_leak_inputs.1 SCK 50|P|6|0||K_leak_inputs||28.94|-5.93173e-009|
+ -3.914e-009
+TSR:||60004|K_leak_inputs.1 nRESET 32|P|6|0||K_leak_inputs||28.94|-2.79002e-009|
+ -2.03313e-009
+TSR:||60005|K_leak_inputs.2 RXCAN 33|P|6|0||K_leak_inputs||28.94|-4.30278e-009|
+ -2.25458e-009
+TSR:||60006|K_leak_inputs.2 nTX0RTS 60|P|6|0||K_leak_inputs||28.94|1.2393e-009|
+ 3.2781e-009
+TSR:||60007|K_leak_inputs.2 nTX2RTS 39|P|6|0||K_leak_inputs||28.94|4.58649e-009|
+ 6.10698e-009
+TSR:||60008|K_leak_inputs.2 SI 35|P|6|0||K_leak_inputs||28.94|-9.10139e-009|
+ -5.76897e-009
+TSR:||60009|K_leak_inputs.3 OSC1 43|P|6|0||K_leak_inputs||28.94|8.72831e-007|
+ 9.07536e-007
+TSR:||60010|K_leak_inputs.4 OSC1 43|P|6|0||K_leak_inputs||28.94|-9.07315e-007|
+ -8.721e-007
+TSR:||60011|K_leak_inputs.5 RXCAN 33|P|6|0||K_leak_inputs||28.94|-2.53529e-010|
+ -9.95227e-011
+TSR:||60012|K_leak_inputs.5 SI 35|P|6|0||K_leak_inputs||28.94|-2.5943e-010|
+ -1.05215e-010
+TSR:||60200|L_vil_max_func|F|6|0||L_vil_max_func||9.81
+TSR:||60300|L_vih_min_func|F|6|0||L_vih_min_func||9.23
+TSR:||60400|L_vol_max_func|F|6|0||L_vol_max_func||7.68
+TSR:||60500|L_voh_min_func|F|6|0||L_voh_min_func||4.75
+HBR:||3|3
+HBR:||2|6
+SBR:||2|6
+SBR:||200|1
+SBR:||802|2
+PCR:1|0|0|0||0
+PCR:1|1|0|0||0
+PCR:1|2|0|0||0
+PCR:1|3|9|0||6
+PCR:||9|0||6
+MRR:13:45:44 20-Mar-2019
